@@ -1,0 +1,82 @@
+{
+  "certifications": [
+    
+    {
+      "value": "adobe_cert",
+      "text": "Adobe"
+    },
+    {
+      "value": "autodesk_cert",
+      "text": "Autodesk"
+    },
+    {
+      "value": "cisco_cert",
+      "text": "Cisco"
+    },
+    {
+      "value": "microsoft_cert",
+      "text": "Microsoft"
+    },
+    {
+      "value": "intuit_cert",
+      "text": "Intuit"
+    }
+  ],
+  "educator_resources": [
+    {
+      "value": "test",
+      "text": "Test Drive an exam"
+    },
+    {
+      "value": "started",
+      "text": "Get started as a test center"
+    },
+    {
+      "value": "compass",
+      "text": "Compass Exam Delivery"
+    },
+    {
+      "value": "details",
+      "text": "Exam details"
+    }
+  ],
+  "learner_resources": [
+    {
+      "value": "career_prep",
+      "text": "Career Preparation"
+    },
+    {
+      "value": "my_pathway",
+      "text": "My Pathway"
+    },
+    {
+      "value": "exam_policies",
+      "text": "Exam Policies"
+    }
+  ],
+  "buy": [
+    {
+      "value": "school/test_center_purchaser",
+      "text": "School/Test Center Purchaser"
+    },
+    {
+      "value": "individual_purchaser",
+      "text": "Individual Purchaser"
+    }
+    
+  ],
+  "about_us": [
+    {
+      "value": "what_we_do",
+      "text": "What we do"
+    },
+    {
+      "value": "press_room",
+      "text": "Press Room"
+    },
+    {
+      "value": "contact_us",
+      "text": "Contact Us"
+    }
+  ]
+}
