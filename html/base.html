@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/base.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-bar-top">
+                <div class="nav-bar-logo">
+                    <a href=""><img src="/assets/logo1.png" alt="Logo"></a>
+                </div>
+                <ul class="nav-bar-top-links">
+                    <li><a href="/about" class="nav-bar-about">CONTACT US</a></li>
+                    <li><a href="/support" class="nav-bar-support">SUPPORT</a></li>
+                    <li><button id="nav-bar-logout" class="nav-bar-logout">Log Out</button></li>
+                </ul>
+            </div>
+            <div class="nav-bar-bottom">
+                <button class="nav-bar-home">Home</button>
+                
+                <select id="product-dropdown1">
+                    <option value="">Certifications</option>
+                </select>
+                <select id="product-dropdown2">
+                    <option value="">Educator resources</option>
+                </select>
+                <select id="product-dropdown3">
+                    <option value="">Learner resources</option>
+                </select>
+                <select id="product-dropdown4">
+                    <option value="">Buy</option>
+                </select>
+                <select id="product-dropdown5">
+                    <option value="">About us</option>
+                </select>
+                <!-- <select id="product-dropdown" class="nav-bar-category">
+                    <option value="all">Certifications</option>
+                    <option value="category1">Category 1</option>
+                    <option value="category2">Category 2</option>
+                    <option value="category3">Category 3</option>
+                </select>
+                <select id="product-dropdown" class="nav-bar-category">
+                    <option value="all">Educator resources</option>
+                    <option value="category1">Category 1</option>
+                    <option value="category2">Category 2</option>
+                    <option value="category3">Category 3</option>
+                </select>
+                <select class="nav-bar-category">
+                    <option value="all">Learner resources</option>
+                    <option value="category1">Category 1</option>
+                    <option value="category2">Category 2</option>
+                    <option value="category3">Category 3</option>
+                </select>
+                <select class="nav-bar-category">
+                    <option value="all">Buy </option>
+                    <option value="category1">Category 1</option>
+                    <option value="category2">Category 2</option>
+                    <option value="category3">Category 3</option>
+                </select>
+                <select class="nav-bar-category">
+                    <option value="all">About us</option>
+                    <option value="category1">Category 1</option>
+                    <option value="category2">Category 2</option>
+                    <option value="category3">Category 3</option>
+                </select> -->
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img src="/assets/banner.jpg" alt="Image 1">
+                    <img src="/assets/banner1.jpg" alt="Image 2">
+                    <img src="/assets/banner3.jpg" alt="Image 3">
+                </div>
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+
+            <div class="cards-container">
+                <div class="card">
+                    <img src="/assets/card1.jpg" alt="card img">
+                    <h2>Card Title</h2>
+                    <p>My Pathway is designed to highlight your accomplishments, track your progress, and help you
+                        pursue today’s most in-demand jobs.</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/card2.jpg" alt="card img">
+                    <h2>Card Title</h2>
+                    <p>CERTIFIED is Certiport’s premier education conference dedicated to exploring the pure potential
+                        of certification in the classroom..</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/card3.png" alt="card img">
+                    <h2>Card Title</h2>
+                    <p>Learn more about our Certiport's Adobe Certified Professional World Championship and Microsoft
+                        Office Specialist World Championships Competitions</p>
+                </div>
+
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="/assets/card4.jpg" alt="card img">
+                    <h2>Card Title</h2>
+                    <p>THE VALUE OF CERTIFICATION Learn more about how Certification can help your students succeed by
+                        reading our white paper.</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/card5.jpg" alt="card img">
+                    <h2>Card Title</h2>
+                    <p>Our technical support team is here to help. Contact support for assistance.</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/card6.jpg" alt="card img">
+                    <h2>Card Title</h2>
+                    <p>Get resources to make your job easier, plus the latest news from Certiport via our blog.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="footer-top-section1">
+                <ul>
+                    <h3>Certifications</h3>
+                    <br />
+                    <li><a href="#">Adobe</a></li>
+                    <li><a href="#">Agriscience and Technology Careers</a></li>
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#">Auto Desk</a></li>
+                    <li><a href="#">Cisco</a></li>
+                    <li><a href="#">Entrepreneurship and Small Business</a></li>
+                    <li><a href="#">IC3 Digital Literacy</a></li>
+                    <li><a href="#">Information Technology Specialist</a></li>
+                    <li><a href="#">Intuit</a></li>
+                    <li><a href="#">Health Sciences Careers</a></li>
+                    <li><a href="#">Hospitality and Culinary Arts Careers</a></li>
+                    <li><a href="#">Knowledge Pillars</a></li>
+                    <li><a href="#">Meta</a></li>
+                    <li><a href="#">Microsoft</a></li>
+                    <li><a href="#">Pearson Languages</a></li>
+                    <li><a href="#">Project Management Institute (PMI)</a></li>
+                    <li><a href="#">Unity</a></li>
+                </ul>
+                <ul>
+                    <h3>Educator resources</h3>
+                    <br />
+                    <li><a href="#">Test Drive an exam</a></li>
+                    <li><a href="#">Get started as a test center</a></li>
+                    <li><a href="#">Compass Exam Delivery/a></li>
+                    <li><a href="#">Learner Resources</a></li>
+                    <li><a href="#">Learning Products</a></li>
+                    <li><a href="#">Exam details</a></li>
+                    <li><a href="#">Exam policies</a></li>
+                    <li><a href="#">Training Sessions</a></li>
+                    <li><a href="#">Resource library</a></li>
+                    <li><a href="#">CATC Newsletter: Subscribe!</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Beta Program</a></li>
+                </ul>
+                <ul>
+                    <h3>Learner resources</h3>
+                    <br />
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Certifications</a></li>
+                    <li><a href="#">Educator Resources</a></li>
+                    <li><a href="#">Learner Resources</a></li>
+                    <li><a href="#">Buy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <ul>
+                    <h3>Certifications</h3>
+                    <br />
+                    <li><a href="#">Adobe</a></li>
+                    <li><a href="#">Agriscience and Technology Careers</a></li>
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#">Auto Desk</a></li>
+                    <li><a href="#">Cisco</a></li>
+                    <li><a href="#">Entrepreneurship and Small Business</a></li>
+                    <li><a href="#">IC3 Digital Literacy</a></li>
+                    <li><a href="#">Information Technology Specialist</a></li>
+                    <li><a href="#">Intuit</a></li>
+                    <li><a href="#">Health Sciences Careers</a></li>
+                    <li><a href="#">Hospitality and Culinary Arts Careers</a></li>
+                    <li><a href="#">Knowledge Pillars</a></li>
+                    <li><a href="#">Meta</a></li>
+                    <li><a href="#">Microsoft</a></li>
+                    <li><a href="#">Pearson Languages</a></li>
+                    <li><a href="#">Project Management Institute (PMI)</a></li>
+                    <li><a href="#">Unity</a></li>
+                </ul>
+                <ul>
+                    <h3>Educator resources</h3>
+                    <br />
+                    <li><a href="#">Test Drive an exam</a></li>
+                    <li><a href="#">Get started as a test center</a></li>
+                    <li><a href="#">Compass Exam Delivery/a></li>
+                    <li><a href="#">Learner Resources</a></li>
+                    <li><a href="#">Learning Products</a></li>
+                    <li><a href="#">Exam details</a></li>
+                    <li><a href="#">Exam policies</a></li>
+                    <li><a href="#">Training Sessions</a></li>
+                    <li><a href="#">Resource library</a></li>
+                    <li><a href="#">CATC Newsletter: Subscribe!</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Beta Program</a></li>
+                </ul>
+                <ul>
+                    <h3>Learner resources</h3>
+                    <br />
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Certifications</a></li>
+                    <li><a href="#">Educator Resources</a></li>
+                    <li><a href="#">Learner Resources</a></li>
+                    <li><a href="#">Buy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-top-section2">
+
+                <div class="social-links">
+                    <h3>Follow Certiport</h3>
+                    <a href="#"><img src="" alt="Facebook"></a>
+                    <a href="#"><img src="" alt="Twitter"></a>
+                    <a href="#"><img src="" alt="Instagram"></a>
+                    <a href="#"><img src="" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>
+                <p>© 1996 - 2025 Pearson Education Inc, or its affiliate(s). All rights reserved.
+                    This website uses cookies. For more information see our <a href="#">Privacy Policy</a> and <a
+                        href="#">Cookie Policy</a></p>
+
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Certifications</a></li>
+                    <li><a href="#">Educator Resources</a></li>
+                    <li><a href="#">Learner Resources</a></li>
+                    <li><a href="#">Buy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="/script/log_out.js"></script>
+    <script src="/script/dropdown.js"></script>
+    <script src="/script/carousel.js"></script>
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="{{lang}}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/base.css">
+</head>
+
+<body>
+    {{> header}}
+    <main>
+        <div class="content">
+            {{> banner }}
+            
+            {{#each items}}
+                {{> card}}
+            {{/each}}
+        
+        </div>
+    </main>
+    {{> footer }}
+</body>
+
+
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="{{lang}}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    /style/base.css
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-bar-top">
+                #/assets/logo.png</a>
+                <ul class="nav-bar-top-links">
+                    {{#each topLinks}}
+                        <li>{{url}}{{label}}</a></li>
+                    {{/each}}
+                    <li><button class="nav-bar-login">login/sign-in</button></li>
+                </ul>
+            </div>
+            <div class="nav-bar-bottom">
+                <button class="nav-bar-home">Home</button>
+                {{#each navCategories}}
+                    <select class="nav-bar-category">
+                        <option value="all">{{title}}</option>
+                        {{#each options}}
+                            <option value="{{value}}">{{label}}</option>
+                        {{/each}}
+                    </select>
+                {{/each}}
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="main-banner-container">
+                {{banner.src}}
+            </div>
+            {{#each cardRows}}
+                <div class="cards-container">
+                    {{#each this}}
+                        <div class="card">
+                            {{img}}
+                            <h2>{{title}}</h2>
+                            <p>{{description}}</p>
+                        </div>
+                    {{/each}}
+                </div>
+            {{/each}}
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-top-section1">
+                {{#each footerSections}}
+                    <ul>
+                        <h3>{{heading}}</h3><br />
+                        {{#each links}}
+                            <li>{{url}}{{label}}</a></li>
+                        {{/each}}
+                    </ul>
+                {{/each}}
+            </div>
+            <div class="footer-top-section2">
+                <div class="social-links">
+                    <h3>Follow Certiport</h3>
+                    {{#each socialLinks}}
+                        {{url}}{{icon}}</a>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>
+                <p>© 1996 - 2025 Pearson Education Inc, or its affiliate(s). All rights reserved.
+                    This website uses cookies. For more information see our
+                    {{privacyPolicyUrl}}Privacy Policy</a> and
+                    {{cookiePolicyUrl}}Cookie Policy</a>
+                </p>
+            </div>
+            <div>
+                <ul>
+                    {{#each footerBottomLinks}}
+                        <li>{{url}}{{label}}</a></li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html> -->
